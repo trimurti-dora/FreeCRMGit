@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29073" started-at="2018-06-03T08:02:39Z" finished-at="2018-06-03T08:03:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29073" started-at="2018-06-03T08:02:39Z" finished-at="2018-06-03T08:03:08Z">
+      <class name="automationTesting.DataProviderTestNG">
+        <test-method status="PASS" signature="lunchChrome()[pri:0, instance:automationTesting.DataProviderTestNG@fad74ee]" name="lunchChrome" is-config="true" duration-ms="16375" started-at="2018-06-03T08:02:39Z" finished-at="2018-06-03T08:02:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchChrome -->
+        <test-method status="PASS" signature="getPageTitle()[pri:0, instance:automationTesting.DataProviderTestNG@fad74ee]" name="getPageTitle" duration-ms="17" started-at="2018-06-03T08:02:55Z" finished-at="2018-06-03T08:02:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageTitle -->
+        <test-method status="PASS" signature="closeChrome()[pri:0, instance:automationTesting.DataProviderTestNG@fad74ee]" name="closeChrome" is-config="true" duration-ms="2353" started-at="2018-06-03T08:02:56Z" finished-at="2018-06-03T08:02:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeChrome -->
+        <test-method status="PASS" signature="lunchChrome()[pri:0, instance:automationTesting.DataProviderTestNG@fad74ee]" name="lunchChrome" is-config="true" duration-ms="7936" started-at="2018-06-03T08:02:58Z" finished-at="2018-06-03T08:03:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchChrome -->
+        <test-method status="PASS" signature="useFacebook(java.lang.String, java.lang.String)[pri:1, instance:automationTesting.DataProviderTestNG@fad74ee]" name="useFacebook" duration-ms="261" started-at="2018-06-03T08:03:06Z" finished-at="2018-06-03T08:03:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[trimurti]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- useFacebook -->
+        <test-method status="PASS" signature="closeChrome()[pri:0, instance:automationTesting.DataProviderTestNG@fad74ee]" name="closeChrome" is-config="true" duration-ms="2086" started-at="2018-06-03T08:03:06Z" finished-at="2018-06-03T08:03:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeChrome -->
+      </class> <!-- automationTesting.DataProviderTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

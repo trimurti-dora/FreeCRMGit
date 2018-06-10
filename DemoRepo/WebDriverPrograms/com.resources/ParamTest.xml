@@ -1,0 +1,34 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Parameter Test" parallel="tests" >
+	<test name="TestNG Parameter Test1">
+		<parameter name="browser" value ="chrome"/>
+		<parameter name="username" value ="trimurti1992@gmail.com"/>
+		<parameter name="password" value ="Ptd@2014"/>
+		<groups>
+			<run>
+				<include name="smoke"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="automationTesting.ParameterTest"/>
+		</classes>
+	</test>
+	
+	<test name="TestNG Parameter Test2">
+		<parameter name="browser" value ="firefox"/>
+		<parameter name="username" value ="trimurti1992@gmail.com"/>
+		<parameter name="password" value ="Ptd@2015"/>
+		<groups>
+			<define name="All">
+				<include name="smoke"/>
+				<include name="system"/>
+			</define>
+			<run>
+				<include name="All"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="automationTesting.ParameterTest"/>
+		</classes>
+	</test>
+</suite>
