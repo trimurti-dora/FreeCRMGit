@@ -15,7 +15,6 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 public class MouseHover {
-
 	public static WebDriver driver;
 	@SuppressWarnings("deprecation")
 	public static void main(String[] args) throws Exception {
